@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import About from './About.js'
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        Home page
+        <About />
+        home stuff
       </div>
     )
   }
 }
-
 export default HomePage;
